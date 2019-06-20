@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
-        <link rel="shortcut icon" type="image/png" href="images/favicon.jpg"/>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
     <link rel="stylesheet" href="css/aos.css">
-
+    <link rel="stylesheet" href="css/quick.css">
     <link rel="stylesheet" href="css/style.css">
 <style>
 * {
@@ -76,7 +76,7 @@ div.desc {
         <div class="site-navbar bg-light">
           <div class="row align-items-center">
             <div class="col-2">
-              <h2 class="mb-0 site-logo"><a href="index.html" class="font-weight-bold">FUNDER</a></h2>
+              <img src="images/logo/Dtech-System-Integrators-Logo.jpg" width="200" height="50">
             </div>
             <div class="col-10">
               <nav class="site-navigation text-right" role="navigation">
@@ -169,26 +169,6 @@ div.desc {
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <footer class="site-footer">
   <div class="container">
     <div class="col-md-8">
@@ -207,6 +187,32 @@ div.desc {
   </div>
 </div>
 </footer>
+  </div>
+  <div id="feedback">
+    <a href="#popup1">Quick Enquiry</a>
+  </div>
+
+
+  <div id="popup1" class="overlay1">
+    <div class="popup">
+      <div class="div1" style="background:#fff">
+
+        <a class="close" href="#">×</a>
+
+        <div class="content" id="quickenquire">
+          <h3 style="text-align:center">Send Enquiry</h3>
+          <form action="https://formspree.io/sales@dtechindia.com" method="POST">
+            <label for="productname">Product Name</label>
+            <textarea rows="6" placeholder="Product Name" class="form-control" name="productname"></textarea>
+            <label for="contactno">Contact No</label>
+            <input type="text" placeholder="Contact No" class="form-control" name="contactno">
+            </select>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 
 
