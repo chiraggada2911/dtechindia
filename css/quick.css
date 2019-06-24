@@ -33,7 +33,7 @@
   position: absolute;
   top: 35px;
   left: 25px;
-  background: #00495d;
+  background: #FF4500;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
@@ -72,7 +72,7 @@
 .content h3 { text-align: center;
     margin: 15px 0 -1px 0;
     text-transform: uppercase;
-    color: #00495d;
+    color: #FF4500;
 }
 @media screen and (max-width: 1024px) {
 .box {
@@ -149,7 +149,7 @@
   text-decoration: none;
 }
 #feedback a:hover {
-  background:#00495d;
+  background:#FF8C00;
 }
 
 /* enquiry form */
@@ -174,7 +174,7 @@
 }
 #quickenquire  input[type=submit] {
     width: 100%;
-    background-color: #00495d;
+    background-color: #FF4500;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
