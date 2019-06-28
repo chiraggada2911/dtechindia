@@ -692,13 +692,19 @@ a:hover {
 
 /* Blocks */
 .site-blocks-cover {
-  background-size: 1450px 800px;
+  background-size: 80rem 40rem;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .size {
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.size1 {
+  background-size: 1500px 800px;
   background-repeat: no-repeat;
   background-position: center center;
 }
