@@ -697,13 +697,13 @@ a:hover {
   background-position: center center;
 }
 
-/* .size {
-  background-size: cover;
+.size {
+  background-size: 3500px auto;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.size1 {
+/* .size1 {
   background-size: 1500px 800px;
   background-repeat: no-repeat;
   background-position: center center;
